@@ -20,5 +20,24 @@
             "Laraecart\\Ecommerce\\": "src"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "laraecart/ecommerce",
+            "version": "dev-master",
+            "source": {
+                "url": "git://github.com/jason822/laraecart-ecommerce.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "Laraecart\\Ecommerce" : "src"
+                }
+            }
+        }
+    }
+],
 }
